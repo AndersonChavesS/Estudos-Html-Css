@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: oblique;
+            /* lighter, normal, bold, bolder*/
+        }
+        
+        h1 {
+           /* Shorthand font
+           - font-style -> font-weight -> font-size -> font-family
+
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: bolder;
+           font-size: 3em;
+           font-style: italic;
+           */
+           font: italic bolder 3em 'Times New Roman', 'Times', 'serif';
+        }
+
+        h2 {
+            font: Bold 2em 'Times New Roman', 'Times', 'serif';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officia recusandae illum animi nostrum quos, tenetur necessitatibus veritatis ut quo ipsam? Veritatis saepe at assumenda aliquid sunt non, libero ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorem natus corrupti debitis, itaque veritatis, minima pariatur voluptatem animi sint voluptatibus nostrum earum dolor vitae unde consequatur voluptas ullam eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo possimus autem accusamus placeat officia quisquam expedita, minima consequuntur dolore voluptatibus, quas ut. Assumenda blanditiis minus, ad repellat exercitationem veritatis beatae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nihil labore, ut cum obcaecati perspiciatis nulla soluta quos, sint impedit quasi qui quas magnam omnis mollitia corporis voluptas distinctio a?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo voluptates molestiae hic consequuntur magnam tenetur labore commodi explicabo sequi numquam minima alias laudantium aspernatur nemo, laborum neque? Fugit, consectetur voluptas.</p>
+</body>
+</html>
