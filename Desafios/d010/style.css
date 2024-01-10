@@ -1,2 +1,9 @@
 @charset 'UTF-8';
 
+body {
+    background-color: #03A64A;
+}
+
+header {
+    background-image: -moz-linear-gradient(to left(#025940) (#03A64A));
+}
