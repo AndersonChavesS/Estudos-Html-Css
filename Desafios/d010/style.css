@@ -1,9 +1,74 @@
-@charset 'UTF-8';
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fontes/BebasNeue-Regular.ttf') format('opentype');
+}
+
+@font-face { 
+font-family: 'Idroid';
+src: url('fontes/IDroid.otf') format('opentype');
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+main {
+    width: 1250px;
+    line-height: 1.5em;
+    margin: auto;
+    padding: 5px;
+    padding-right: 5px;
+    background-color: white;
+    color: var(--cor5);
+}
 
 body {
-    background-color: #03A64A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--cor0);
+    background-color: var(--cor0)
 }
 
-header {
-    background-image: -moz-linear-gradient(to left(#025940) (#03A64A));
+Header {
+background-image: linear-gradient(#2fa866, #1a5c1a);
+text-align: center;
+margin: 0px;
+padding: 1px;
 }
+#reflexão {
+    font-size: 1em ;
+    margin: auto;
+}
+nav {
+    height: 100px;
+    background-color: var(--cor4);
+    margin: 0;
+    margin-top: auto;
+    padding: 1px;
+
+}
+
+.link {
+    color: var(--cor0);
+    padding: 10px;
+    font-size: 1em;
+}
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 2.5em;
+    color: var(--cor0);
+}
+
+h2 {
+   font-family: 'Idroid';
+   font-style: normal;
+   font-size: 32px;
+
+   }
